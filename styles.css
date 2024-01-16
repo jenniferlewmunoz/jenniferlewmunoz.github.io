@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E8E5DA;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    color: #cdc392;
+}
+
+h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+h3 {
+    color: white;
+    display: inline-block;
+    height: 30px;
+    padding-top: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #9eb7e5;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: 5px solid #cdc392;
+}
+
+.code {
+    font-size: smaller;
+    font-family: 'Fira Code', monospace;
+    background-color: rgba(231, 228, 228, 0.558);
+    padding: 3px 5px;
+    color: black;
+}
+
+main {
+    width: 500px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+nav {
+    background-color: #9eb7e5;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #9eb7e5;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+#github-logo {
+    width: 16px;
+    height: 16px;
+
+}
+
+#credits {
+    color: white;
+    font-size: 10px;
+    padding-bottom: 10px;
+    background-color: #9eb7e5;
+}
